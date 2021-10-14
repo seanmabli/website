@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sean Mabli | Arduino Hangman</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+	<div class="nav">
+		<a class="tablink" href='/'>Home</a>
+		<b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b>
+		<a class="tablink" href='ElectricalEngineering'>Electrical Engineering</a>
+		<b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b>
+		<a class="tablink" href='ArtificialIntelligence'>Artificial Intelligence</a>
+		<b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b>
+		<a class="tablink" href='About'>About</a>
+	</div>
+
+  <p>Test</p>
+ 
+  <script src="script.js"></script>
+</body>
+</html>

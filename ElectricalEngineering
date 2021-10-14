@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Sean Mabli | Electrical Engineering</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<div class="nav">
+		<a class="tablink" href='/'>Home</a>
+		<b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b>
+		<a class="tablink" href='ElectricalEngineering'>Electrical Engineering</a>
+		<b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b>
+		<a class="tablink" href='ArtificialIntelligence'>Artificial Intelligence</a>
+		<b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b>
+		<a class="tablink" href='About'>About</a>
+	</div>
+  
+	<div class="row">
+		<div class="column">
+      <div class="cardOutline">
+			 <img class="card" src="img/YouTube Thumbnail 1280x720 px (8).jpeg" style="width:100%" >
+      <div class="overlay">
+        <div class="text">Arduino Controlled Radio Doorbell</div>
+       </div>
+      </div>
+  </div>
+
+  <div class="column">
+      <div class="cardOutline">
+        <img class="card" src="img/YouTube Channel Art 2560x1440 px (7).jpeg" style="width:100%" href="ArduinoHangman">
+        <button class="overlay" href="ArduinoHangman"> 
+          <div class="text">Arduino Hangman</div>
+        </button> 
+      </div>
+  </div>
+
+  <div class="column">
+      <div class="cardOutline">
+      <img class="card" src="img/Experimenting with Sensors and Displays to Create a Great Arduino Starter Project (2).jpeg" style="width:100%">
+      <div class="overlay">
+        <div class="text">Experimenting with Sensors and Displays to Create a Great Arduino Starter Project</div>
+       </div>
+      </div>
+  </div>
+  
+  <div class="column">
+      <div class="cardOutline">
+      <img class="card" src="img/Door Alarm.jpeg" style="width:100%">
+      <div class="overlay">
+        <div class="text">Esp32 Door Alarm</div>
+       </div>
+      </div>
+  </div>
+
+  <div class="column">
+      <div class="cardOutline">
+      <img class="card" src="img/YouTube Thumbnail 1280x720 px (4).jpeg" style="width:100%">
+      <div class="overlay">
+        <div class="text">Eso32 Attendence Stystem</div>
+       </div>
+      </div>
+  </div>
+
+  <div class="column">
+      <div class="cardOutline">
+      <img class="card" src="img/YouTube Thumbnail 1280x720 px (3).jpeg" style="width:100%">
+      <div class="overlay">
+        <div class="text">Arduino Calculator</div>
+       </div>
+      </div>
+  </div>
+  
+  <div class="column">
+      <div class="cardOutline">
+      <img class="card" src="img/YouTube Thumbnail 1280x720 px (2).jpeg" style="width:100%">
+      <div class="overlay">
+        <div class="text">Arduino Controlled Touchscreen Light Switch</div>
+       </div>
+      </div>
+  </div>
+
+  <div class="column">
+    <div class="cardOutline">
+		<img class="card" src="img/YouTube Thumbnail 1280x720 px (1).jpeg" style="width:100%">
+    <div class="overlay">
+      <div class="text">Arduino Alarm</div>
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
