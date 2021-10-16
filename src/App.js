@@ -2,21 +2,17 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <header className="App">
+		  <div class="nav">
+		  	<a class="tablink" href='index.html'>Home</a>
+		  	<b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b> 
+		  	<a class="tablink" href='ElectricalEngineering.html'>Electrical Engineering</a>
+		  	<b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b>
+		  	<a class="tablink" href='ArtificialIntelligence.html'>Artificial Intelligence</a>
+		  	<b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b>
+		  	<a class="tablink" href='About.html'>About</a>
+		  </div>
+    </header>
   );
 }
 
