@@ -1,7 +1,28 @@
 import react, { Component } from 'react';
-import { Button } from '../Button';
-import { MenuItems } from "./Menuitems";
 import './Navbar.css'
+
+const MenuItems = [
+  {
+    title: 'Home',
+    url: '#',
+  },
+  {
+    title: 'Services',
+    url: '#',
+  },
+  {
+    title: 'Products',
+    url: '#',
+  },
+  {
+    title: 'Contact Us',
+    url: '#',
+  },
+  {
+    title: 'Sign Up',
+    url: '#',
+  },
+]
 
 class Navbar extends Component {
   state = { clicked: false}
@@ -12,7 +33,6 @@ class Navbar extends Component {
   render() {
     return(
       <nav className="NavbarItems">
-        <h1 className="navbar-logo">React<i className="fab fa-react"></i></h1>
         <div className="menu-icon" onClick={this.handleClick}>
           <i className={this.state.clicked ? "fas fa-times" : "fas fa-bars"}></i>
         </div>
@@ -20,14 +40,13 @@ class Navbar extends Component {
           {MenuItems.map((item, index) => {
             return (
               <li key={index}>
-                <a className={item.cName} href={item.url}>
+                <a className={'nav-links'} href={item.url}>
                   {item.title}
                 </a>
               </li>
             ) 
           })} 
         </u1>
-        <Button>Sign Up</Button>
       </nav>
     )
   }
