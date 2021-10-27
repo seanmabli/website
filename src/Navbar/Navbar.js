@@ -1,4 +1,4 @@
-import react, { Component } from 'react';
+import { Component } from 'react';
 import './Navbar.css'
 
 const MenuItems = [
@@ -7,21 +7,17 @@ const MenuItems = [
     url: '#',
   },
   {
-    title: 'Services',
+    title: 'Artificial Intelligence',
     url: '#',
   },
   {
-    title: 'Products',
+    title: 'Electrical Engineering',
     url: '#',
   },
   {
-    title: 'Contact Us',
+    title: 'About',
     url: '#',
-  },
-  {
-    title: 'Sign Up',
-    url: '#',
-  },
+  }
 ]
 
 class Navbar extends Component {
