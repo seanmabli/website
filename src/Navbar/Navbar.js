@@ -3,19 +3,15 @@ import './Navbar.css'
 
 const MenuItems = [
   {
-    title: 'Home',
+    title: 'blog',
     url: '#',
   },
   {
-    title: 'Artificial Intelligence',
+    title: 'aiinpy',
     url: '#',
   },
   {
-    title: 'Electrical Engineering',
-    url: '#',
-  },
-  {
-    title: 'About',
+    title: 'about',
     url: '#',
   }
 ]
