@@ -1,18 +1,19 @@
 import { Component } from 'react';
+import { Link } from 'react-router-dom';
 import './Navbar.css'
 
 const MenuItems = [
   {
     title: 'blog',
-    url: '#',
+    url: '/blog',
   },
   {
     title: 'aiinpy',
-    url: '#',
+    url: '/aiinpy',
   },
   {
     title: 'about',
-    url: '#',
+    url: '/about',
   }
 ]
 
@@ -24,17 +25,14 @@ class Navbar extends Component {
   }
   render() {
     return(
-      <nav className="NavbarItems">
-        <div className="menu-icon" onClick={this.handleClick}>
-          <i className={this.state.clicked ? "fas fa-times" : "fas fa-bars"}></i>
-        </div>
+      <nav className='nav'>
         <u1 className={this.state.clicked ? 'nav-menu active' : 'nav-menu'}> 
           {MenuItems.map((item, index) => {
             return (
               <li key={index}>
-                <a className={'nav-links'} href={item.url}>
+                <Link to={item.url} className={'nav-links'}>
                   {item.title}
-                </a>
+                </Link>
               </li>
             ) 
           })} 
