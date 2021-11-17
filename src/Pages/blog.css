@@ -14,22 +14,36 @@
 
 .aboutinfo {
   width: 30%;
+  /* border-right: 1px solid #838383; */
+  padding: 10px;
 }
 
 .blogcontent {
   width: 70%;
+  padding: 10px;
 }
 
-.posttitle {
-  font-size: 20px;
+p {
+  font-size: 28px;
   color: #838383;
-  text-decoration: none;
+  text-align: left;
+  padding-top: 5px;
 }
 
 h1 {
-  font-size: 20px;
-  margin-bottom: 20px;
+  font-size: 18px;
+  color: #838383;
   text-align: left;
+  padding-bottom: 5px;
+}
+
+h2 {
+  font-size: 18px;
+  color: #838383;
+  font-weight: lighter;
+  text-align: left;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 @media screen and (max-width: 600px) {
