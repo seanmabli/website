@@ -3,7 +3,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1.2em;
+  font-size: 19px;
 }
 
 .nav-menu {
@@ -20,11 +20,11 @@
   color: #838383;
   text-decoration: none;
   padding: 0.15em 0.3em;
+  border-radius: 10px;
 }
 
 .nav-links:hover {
-  background-color: #838383;
+  background-color: rgba(83, 83, 83, 0.4);
   color: white;
-  border-radius: 3px;
   transition: all 0.2s ease-out;
 }

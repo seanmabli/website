@@ -1,16 +1,43 @@
 .blog {
-  height: 60px;
-  display: flex;
+  max-width: 900px;
+  width: 100%;
   justify-content: center;
   align-items: center;
-  font-size: 1.2em;
+  margin: 0 auto;
+  display: table;
+  clear: both;
 }
 
-.rectangle {
-  width: 600px;
-  height: 100px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: 2px solid #535353;
+.column {
+  float: left;
+}
+
+.aboutinfo {
+  width: 30%;
+}
+
+.blogcontent {
+  width: 70%;
+}
+
+.posttitle {
+  font-size: 20px;
+  color: #838383;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+@media screen and (max-width: 600px) {
+  .aboutinfo {
+    display: none;
+  }
+
+  .blogcontent {
+    width: 100%;
+  }
 }

@@ -4,7 +4,6 @@ import './App.css';
 import Navbar from './Navbar/Navbar';
 import Blog from './Pages/blog';
 import Aiinpy from './Pages/aiinpy';
-import About from './Pages/about';
 
 function App() {
   return (
@@ -15,7 +14,6 @@ function App() {
           <Route exact path="/" component={Blog} />
           <Route exact path="/blog" component={Blog} />
           <Route exact path="/aiinpy" component={Aiinpy} />
-          <Route exact path="/about" component={() => <About />} />
         </Switch>
       </Router>
     </div>

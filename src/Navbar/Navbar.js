@@ -10,10 +10,6 @@ const MenuItems = [
   {
     title: 'aiinpy',
     url: '/aiinpy',
-  },
-  {
-    title: 'about',
-    url: '/about',
   }
 ]
 
