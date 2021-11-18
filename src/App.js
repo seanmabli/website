@@ -9,7 +9,6 @@ function App() {
   return (
     <div className="App">
       <Router>
-			  <Navbar />
         <Switch>
           <Route exact path="/" component={Blog} />
           <Route exact path="/blog" component={Blog} />

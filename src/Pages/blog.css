@@ -26,22 +26,27 @@
 p {
   font-size: 28px;
   color: #838383;
-  text-align: left;
   padding-top: 5px;
 }
 
 h1 {
+  display: inline-block;
   font-size: 18px;
   color: #838383;
-  text-align: left;
-  padding-bottom: 5px;
 }
 
 h2 {
+  display: inline-block;
   font-size: 18px;
   color: #838383;
   font-weight: lighter;
-  text-align: left;
+  padding-bottom: 5px;
+}
+
+h3 {
+  font-size: 18px;
+  color: #838383;
+  font-weight: lighter;
   padding-top: 5px;
   padding-bottom: 5px;
 }
