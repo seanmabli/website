@@ -1,4 +1,4 @@
-import './blog.css';
+import './blog.css'
 import blogcontent from './blogcontent';
 import { Link } from 'react-router-dom';
 
@@ -7,7 +7,7 @@ function Blog() {
     <div className="blog">
       <div className="column aboutinfo">
         <p>sean mabli</p>
-        <h3>hello, i am sean dfkasjfdklsadjfk lsdajkl sdj fasjdklf jsklajfkld fasjdklf jsakld fjsklda fjklsadfjsklad fhsdjfksladf jklSDJVKLASD FJKLASDFJKLASD JFLKSAD FJSKLDAJF SAKL</h3>
+        <h3>hello, i am sean dfkasjfdklsadjfklsdajkl sdj fasjdklf jsklajfkld fasjdklf jsakld fjsklda fjklsadfjsklad fhsdjfksladfjklSDJVKLASD FJKLASDFJKLASDJFLKSAD FJSKLDAJF SAKL</h3>
       </div>
       <div className="column blogcontent">
         {blogcontent.map((item) => {

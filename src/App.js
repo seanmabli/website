@@ -1,9 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
-import Navbar from './Navbar/Navbar';
+import blogcontent from './Pages/blogcontent';
 import Blog from './Pages/blog';
-import Aiinpy from './Pages/aiinpy';
 
 function App() {
   return (
@@ -11,8 +10,11 @@ function App() {
       <Router>
         <Switch>
           <Route exact path="/" component={Blog} />
-          <Route exact path="/blog" component={Blog} />
-          <Route exact path="/aiinpy" component={Aiinpy} />
+          {blogcontent.map((item) => {
+            return (
+              <Route exact path={item.url} component={Blog} />
+            ) 
+          })}
         </Switch>
       </Router>
     </div>
