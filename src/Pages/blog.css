@@ -1,4 +1,4 @@
-.blog {
+.site {
   max-width: 1000px;
   width: 100%;
   justify-content: center;
@@ -6,33 +6,35 @@
   margin: 0 auto;
   display: table;
   clear: both;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
-.column {
+.about {
   float: left;
-}
-
-.aboutinfo {
   width: 25%;
-  padding: 10px;
+  padding-right: 10px;
 }
 
-.blogcontent {
+.blog {
+  float: left;
   width: 75%;
-  padding: 10px;
+}
+
+.box {
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 p {
   font-size: 26px;
   color: #838383;
-  padding-top: 10px;
   font-weight: bold;
 }
 
 .link {
   font-size: 26px;
   color: #838383;
-  padding-top: 10px;
   font-weight: bold;
   text-decoration: none;
 }
@@ -45,29 +47,25 @@ h1 {
   display: inline-block;
   font-size: 18px;
   color: #838383;
-  font-weight: lighter;
 }
 
 h2 {
-  display: inline-block;
-  font-size: 18px;
-  color: #838383;
-}
-
-h3 {
   font-size: 18px;
   color: #838383;
   font-weight: lighter;
   padding-top: 5px;
-  padding-bottom: 10px;
+}
+
+.lighter {
+  font-weight: lighter;
 }
 
 @media screen and (max-width: 600px) {
-  .aboutinfo {
+  .about {
     display: none;
   }
 
-  .blogcontent {
+  .blog {
     width: 100%;
   }
 }

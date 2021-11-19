@@ -1,24 +1,25 @@
 import './blog.css';
-import blogcontent from './blogcontent';
+import content from './content';
 import { Link } from 'react-router-dom';
 
 function Blog() {
   return(
-    <div className="blog">
-      <div className="column aboutinfo">
-        <p>sean mabli</p>
-        <h3>hello, i am sean dfkasjfdklsadjfk lsdajkl sdj fasjdklf jsklajfkld fasjdklf jsakld fjsklda fjklsadfjsklad fhsdjfksladf jklSDJVKLASD FJKLASDFJKLASD JFLKSAD FJSKLDAJF SAKL</h3>
+    <div className="site">
+      <div className="about">
+        <p className="box">sean mabli</p>
+        <h2>hello, i am sean dfkasjfdklsadjfk lsdajkl sdj fasjdklf jsklajfkld fasjdklf jsakld fjsklda fjklsadfjsklad fhsdjfksladf jklSDJVKLASD FJKLASDFJKLASD 
+        JFLKSAD FJSKLDAJF SAKL</h2>
       </div>
-      <div className="column blogcontent">
-        {blogcontent.map((item) => {
+      <div className="blog">
+        {content.map((item) => {
           return (
-            <div>
+            <div className="box">
               <Link to={item.url} className={'link'}>
                 {item.title}
-              </Link>
-              <h1>{item.published}</h1>
-              <h2>&nbsp;{item.tag}</h2>
-              <h3>{item.discription}</h3>
+              </Link> <br/>
+              <h1 className="lighter">{item.published}</h1>
+              <h1>&nbsp;{item.tag}</h1>
+              <h2>{item.discription}</h2>
             </div>
           ) 
         })}
