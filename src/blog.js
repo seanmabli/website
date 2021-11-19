@@ -2,7 +2,7 @@ import './blog.css';
 import content from './content';
 import { Link } from 'react-router-dom';
 
-function Blog() {
+function blog() {
   return(
     <div className="site">
       <div className="about">
@@ -28,4 +28,4 @@ function Blog() {
   )
 }
 
-export default Blog;
+export default blog;
