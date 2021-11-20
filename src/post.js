@@ -1,16 +1,26 @@
 import { useParams } from "react-router";
 import content from './content';
-import './blog.css';
+import './index.css';
 
-const Post = () => {
+
+function Post() {
+
   const { id } = useParams();
+  const postcontent = content.filter(content => content.id === id);
 
   return (
-  <div className="site">
-    {content.filter(content => content.id === id).map(post => (
-      <h2>{post.artical}</h2>
-    ))}
-  </div>
+    <div className="site">
+      {postcontent.map((item) => {
+        return (
+          <div className="box">
+            <p>{item.title}</p>
+            <h1 className="lighter">{item.published}</h1>
+            <h1>&nbsp;{item.tag}</h1>
+            <h2>{item.artical}</h2>
+          </div>
+        ) 
+      })}
+    </div>
   );
 }
 

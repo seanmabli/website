@@ -1,6 +1,6 @@
-import './blog.css';
-import content from './content';
 import { Link } from 'react-router-dom';
+import content from './content';
+import './index.css';
 
 function blog() {
   return(
