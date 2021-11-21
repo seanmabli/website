@@ -7,8 +7,7 @@ function blog() {
     <div className="site">
       <div className="about">
         <p className="box">sean mabli</p>
-        <h2>hello, i am sean dfkasjfdklsadjfk lsdajkl sdj fasjdklf jsklajfkld fasjdklf jsakld fjsklda fjklsadfjsklad fhsdjfksladf jklSDJVKLASD FJKLASDFJKLASD 
-        JFLKSAD FJSKLDAJF SAKL</h2>
+        <h2>I am the creator of aiinpy, an open source python package used to create mechine learning models.</h2>
       </div>
       <div className="blog">
         {content.map((item) => {
