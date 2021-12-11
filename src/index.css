@@ -3,7 +3,6 @@
   margin: 0;
   padding: 0;
   font-family: 'Inria Serif', serif;
-  text-transform: lowercase;
 }
 
 .site {
@@ -24,7 +23,7 @@
   padding-right: 10px;
 }
 
-.blog {
+.function {
   float: left;
   width: 75%;
 }
@@ -32,6 +31,10 @@
 .box {
   padding-top: 5px;
   padding-bottom: 5px;
+}
+
+.link {
+  text-decoration: none;
 }
 
 .p {
@@ -46,17 +49,6 @@
   color: #838383;
 }
 
-.h2 {
-  font-size: 18px;
-  color: #838383;
-  font-weight: lighter;
-  padding-top: 5px;
-}
-
-.link {
-  text-decoration: none;
-}
-
 .bold {
   font-weight: bold;
 }
@@ -65,12 +57,27 @@
   font-weight: lighter;
 }
 
+.notext-decoration {
+  text-decoration: none;
+}
+
+.version {
+  border-width: 0;
+  outline: none !important;
+}
+
+.socialicon {
+  width: 10px;
+  height: 10px;
+  object-fit: cover;
+}
+
 @media screen and (max-width: 600px) {
   .about {
     display: none;
   }
 
-  .blog {
+  .function {
     width: 100%;
   }
 }
