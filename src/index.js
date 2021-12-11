@@ -1,16 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import About from './about';
-import Function from './function';
+import Blog from './blog';
+import Post from './post';
 import './index.css';
 
 ReactDOM.render(
   <Router>
     <Switch>
-      <Route exact path="/" component={About} />
-      <Route exact path="/:version" component={About} />
-      <Route exact path="/:version/:id" component={Function} />
+      <Route exact path="/" component={Blog} />
+
+      <Route path="/:id" component={Post} />
     </Switch>
   </Router>,
 
