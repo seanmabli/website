@@ -35,19 +35,19 @@
 }
 
 .p {
-  font-size: 26px;
+  font-size: 24px;
   color: #838383;
   font-weight: bold;
 }
 
 .h1 {
   display: inline-block;
-  font-size: 18px;
+  font-size: 16px;
   color: #838383;
 }
 
 .h2 {
-  font-size: 18px;
+  font-size: 16px;
   color: #838383;
   font-weight: lighter;
   padding-top: 5px;
