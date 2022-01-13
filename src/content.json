@@ -1,11 +1,11 @@
 [
   {
-    "title": "artical title",
+    "title": "article title",
     "published": "publish date",
-    "tag": "artical tags",
-    "discription": "artical discription",
-    "url": "/articalurl",
-    "id": "articalurl",
-    "artical": "furture artical"
+    "tag": "article tags",
+    "discription": "article discription",
+    "url": "/article",
+    "id": "article",
+    "artical": "furture article"
   }
 ]
