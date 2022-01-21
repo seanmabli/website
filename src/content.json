@@ -1,6 +1,5 @@
 [
   {
-<<<<<<< HEAD
     "title": "what are artificial neural networks?",
     "published": "January 21 2021",
     "tag": "artificial neural networks, machine learning",
@@ -8,14 +7,5 @@
     "url": "/whatareartificialneuralnetworks",
     "id": "whatareartificialneuralnetworks",
     "artical": "What are artificial neural networks?  Artificial neural networks are a type of artificial intelligence.  So … what is Artificial intelligence?  Artificial intelligence is the attempt to create human-level intelligence within a computer.  Why is this task so hard?  Well, computers and Humans perform computations in different ways.  Computers perform computations using andor gates (which perform operations by moving binary information throughout the system).  Where Humans perform computations by using their own neural network (which performs operations by firing neurons).  This is why right now it makes the most sense to develop artificial intelligence by creating artificial neural networks.  We already have a proof of concept that intelligence can be created using this neural network model … humans.  So … how do we simulate human neural networks on computers?  Let's first look at what's inside the neural network in the human brain.  When we learn, certain connections between neurons get stronger or weaker, and over time as we develop “knowledge” of a topic these connections get very precise.  We can replicate this within an artificial neural network.  The only difference is while humans learn through chemical connections getting stronger or weaker, artificial neural networks learn through increasing or decreasing two types of mathematical values (called weights and biases).  The difference between weights and biases is in this mathematical operation weights are multiplied to the input where biases are added.  One process of optimizing these weights and biases is called backpropagation.  In backpropagation, we first feed information into the artificial neural network (i.e. an image of a cat) and the artificial neural network outputs a probability (i.e. the probability that the image contains a cat vs a dog).  To optimize the weights and biases properly we want to find which weights and biases are the most responsible for the incorrectness (or error) of the probability.  To do this we calculate an error for the whole neural network and then find the partial derivative in respect of the error for each weight and bias in the neural network.  Now that we have the error of each weight and bias we can adjust the values accordingly and therefore optimize the artificial neural network.  Now that I have given a general overview of how artificial neural networks mimic the functions of the human brain, what are artificial neural networks used for today?  Artificial neural networks are used in many applications today, from google searches to amazon delivery routing.  The reason that artificial neural networks are better at solving problems (i.e. cat vs dog example from earlier) than a computer script is because artificial neural networks can solve nonlinear problems.  Before artificial neural networks only humans have had this ability to solve complex nonlinear problems.  Artificial neural networks are gaining superiority to humans because they can create non linear equations that are more complex than humans can.  To review, artificial neural networks are an attempt to mimic the human brain’s way of performing computations.  Rather than simply moving data (in binary form) throughout a computer, artificial neural networks strengthen and weaken connections between neurons.  Therefore artificial neural networks can detect patterns in data and solve problems just like and sometimes better than humans.  To answer our original question artificial neural networks are just complex mathematical equations that learn over time."
-=======
-    "title": "artical title",
-    "published": "publish date",
-    "tag": "artical tags",
-    "discription": "artical discription",
-    "url": "/articalurl",
-    "id": "articalurl",
-    "artical": "furture artical"
->>>>>>> parent of 426fbce (Update content.json)
   }
 ]
