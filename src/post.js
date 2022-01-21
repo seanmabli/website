@@ -3,7 +3,6 @@ import content from './content';
 import './index.css';
 
 function Post() {
-
   const { id } = useParams();
   const postcontent = content.filter(content => content.id === id);
   

@@ -9,7 +9,6 @@ ReactDOM.render(
   <Router>
     <Switch>
       <Route exact path="/" component={Blog} />
-
       <Route path="/:id" component={Post} />
     </Switch>
   </Router>,
