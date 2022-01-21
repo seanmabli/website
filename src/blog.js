@@ -1,14 +1,8 @@
 import { Link } from 'react-router-dom';
 import content from './content';
 import './index.css';
-import { doc, getDoc } from "firebase/firestore";
 
 function Blog() {
-
-  const docRef = doc(db, "cities", "SF");
-  const docSnap = getDoc(docRef);
-
-  console.log("Document data:", docSnap.data());
   
   return(
     <div className="site">
