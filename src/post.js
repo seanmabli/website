@@ -7,6 +7,7 @@ function Post() {
   const postcontent = content.filter(content => content.id === id);
   
   return (
+    
     <div className="site">
       {postcontent.map((item) => {
         return (

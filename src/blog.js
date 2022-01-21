@@ -3,6 +3,7 @@ import content from './content';
 import './index.css';
 
 function Blog() {
+  
   return(
     <div className="site">
       <div className="about">
