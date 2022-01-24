@@ -6,14 +6,14 @@ import './index.css';
 
 function Blog() {
   const [users, setUsers] = useState([]);
-  const usersCollectionRef = collection(db, "blog")
+  const usersCollectionRef = collection(db, 'blog')
   useEffect(() => {
-    const getUsers = async () => {
-      const data = await getDocs(usersCollectionRef);
-      setUsers(data.docs.map((doc) => ({ ...doc.data(), id: doc.id })))
-    };
-    getUsers()
-  }, [])
+		const getUsers = async () => {
+			const data = await getDocs(usersCollectionRef);
+			setUsers(data.docs.map((doc) => ({ ...doc.data(), id: doc.id})))
+		};
+		getUsers();
+	}, [])
 
   return(
     <div className="site">
@@ -28,17 +28,14 @@ function Blog() {
       </div>
       <div className="blog">
         {users.map((user) => {
-	  console.log(user.url)
-          console.log(user.title)
-	  console.log(user.published)
-	  console.log(user.tag)
-	  console.log(user.discription)
 	  return(
             <div className="box">
               <Link to={user.url} className='p link'>
                 {user.title}
               </Link> <br/>
-              <p className='h2'>{user.discription}</p>
+	      <p className='h1 lighter'>{user.published.toDate().toDateString().split(' ').slice(1).join(' ')}</p>
+	      <p className="h1 bold">&nbsp;{user.tag}</p>
+	      <p className='h2'>{user.discription}</p>
             </div>
           ) 
         })}
