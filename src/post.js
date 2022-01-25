@@ -1,36 +1,29 @@
 import { useState, useEffect } from "react";
 import { useParams } from "react-router";
 import { db } from './firebase'
-import { collection, getDocs, doc } from "firebase/firestore";
+import { doc, getDoc } from "firebase/firestore";
 import './index.css';
 
 function Post() {
+  const { id } = useParams();
   const [users, setUsers] = useState([]);
-  const usersCollectionRef = collection(db, 'blog')
+  const usersCollectionRef = doc(db, "blog", id);
+
   useEffect(() => {
 	  const getUsers = async () => {
-		  const data = await getDocs(usersCollectionRef);
-		  setUsers(data.docs.map((doc) => ({...doc.data(), id: doc.id})))
+		  const data = await getDoc(usersCollectionRef);
+		  setUsers(data.data());
 	  };
 	  getUsers();
   }, [])
-  
-  const { id } = useParams();
-  const postcontent = users.filter(users => users.url.substring(1) === id)[0];
-  console.log(postcontent); 
   return (
     <div className="site">
-	  {postcontent.map((item) => {
-		return (
 			<div className="box">
-				<p className='p'>{item.title}</p>
-				<p className='h1 lighter'>{item.published}</p>
-				<p className='h1 bold'>&nbsp;{item.tag}</p>
-				<p className='h2'>{item.artical}</p>
+				<p className='p'>{users.title}</p>
+	  			<p className='h1 bold'>&nbsp;{users.tag}</p>
+				<p className='h2'>{users.article}</p>
 			</div>
-			) 
-	  })}
-    </div>
+	  </div>
   );
 }
 
