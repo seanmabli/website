@@ -20,7 +20,6 @@ function Post() {
     <div className="site">
 			<div className="box">
 				<p className='p'>{users.title}</p>
-	  			<p className='h1 lighter'> {users.published.toDate().toDateString().split(' ').slice(1).join(' ')}</p>
 	  			<p className='h1 bold'>&nbsp;{users.tag}</p>
 				<p className='h2'>{users.article}</p>
 			</div>
