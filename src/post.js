@@ -16,20 +16,22 @@ function Post() {
 	  };
 	  getUsers();
   }, [])
-  return (
-    <div className="site">
-    	{users.map((user) => {
-	  		return(
-        	<div className="box">
-						<p className='p'>{user.title}</p>
-	      		<p className='h1 lighter'>{user.published.toDate().toDateString().split(' ').slice(1).join(' ')}</p>
-	      		<p className="h1 bold">&nbsp;{user.tag}</p>
-	      		<p className='h2'>{user.article}</p>
-          </div>
-       	) 
-    	})}
-	  </div>
-  );
+
+  if (users.length !== 0) {
+	console.log(users, 'yes')
+	return (
+	  	<div className="site">
+		  	<div className="box">
+				<p className='p'>{users.title}</p>
+			  	<p className='h1 lighter'>{users.published.toDate().toDateString().split(' ').slice(1).join(' ')}</p>
+			  	<p className="h1 bold">&nbsp;{users.tag}</p>
+			  	<p className='h2'>{users.article}</p>
+		  </div>
+		</div>
+	);
+  } else {
+	return null;
+  }
 }
 
 export default Post;
