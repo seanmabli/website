@@ -18,11 +18,16 @@ function Post() {
   }, [])
   return (
     <div className="site">
-			<div className="box">
-				<p className='p'>{users.title}</p>
-	  			<p className='h1 bold'>&nbsp;{users.tag}</p>
-				<p className='h2'>{users.article}</p>
-			</div>
+    	{users.map((user) => {
+	  		return(
+        	<div className="box">
+						<p className='p'>{user.title}</p>
+	      		<p className='h1 lighter'>{user.published.toDate().toDateString().split(' ').slice(1).join(' ')}</p>
+	      		<p className="h1 bold">&nbsp;{user.tag}</p>
+	      		<p className='h2'>{user.article}</p>
+          </div>
+       	) 
+    	})}
 	  </div>
   );
 }
