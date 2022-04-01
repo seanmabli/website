@@ -6,10 +6,9 @@ import './index.css';
 
 function Blog() {
   const [users, setUsers] = useState([]);
-  const usersCollectionRef = collection(db, 'blog')
   useEffect(() => {
 		const getUsers = async () => {
-			const data = await getDocs(usersCollectionRef);
+			const data = await getDocs(collection(db, 'blog'));
 			setUsers(data.docs.map((doc) => ({ ...doc.data(), id: doc.id})))
 		};
 		getUsers();

@@ -7,11 +7,10 @@ import './index.css';
 function Post() {
   const { id } = useParams();
   const [users, setUsers] = useState([]);
-  const usersCollectionRef = doc(db, "blog", id);
 
   useEffect(() => {
 	  const getUsers = async () => {
-		  const data = await getDoc(usersCollectionRef);
+		  const data = await getDoc(doc(db, "blog", id));
 		  setUsers(data.data());
 	  };
 	  getUsers();
