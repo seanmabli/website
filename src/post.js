@@ -17,7 +17,6 @@ function Post() {
   }, [])
 
   if (users.length !== 0) {
-	console.log(users, 'yes')
 	return (
 	  	<div className="site">
 		  	<div className="box">
