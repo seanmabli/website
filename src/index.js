@@ -1,16 +1,41 @@
-import React from "react";
 import ReactDOM from "react-dom/client";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Blog from "./blog";
-import Post from "./post";
 import "./index.css";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <BrowserRouter>
-    <Routes>
-      <Route exact path="/" element={<Blog />} />
-      <Route path="/:id" element={<Post />} />
-    </Routes>
-  </BrowserRouter>
+  <div className="site">
+    <div>
+      <h1>Sean Mabli</h1>
+      <div className="linkContainer">
+        <a href="https://www.youtube.com/@seanmabli">YouTube</a>
+      </div>
+      <div className="linkContainer">
+        <a href="https://github.com/seanmabli">Github</a>
+      </div>
+      <div className="linkContainer">
+        <a href="https://github.com/seanmabli">Linkedin</a>
+      </div>
+      <h2>The Ultrasonicists <h3>(World Robot Olympiad Team)</h3></h2>
+      <div className="linkContainer">
+        <a href="https://www.youtube.com/@ultrasonicists">
+           YouTube
+        </a>
+      </div>
+      <div className="linkContainer">
+        <a href="https://github.com/seanmabli/wro">
+         Github
+        </a>
+      </div>
+      <h2>aiinpy</h2>
+      <div className="linkContainer">
+        <a href="https://pypi.org/project/aiinpy/">PYPI</a>
+      </div>
+      <div className="linkContainer">
+        <a href="https://aiinpy.org">Documentation</a>
+      </div>
+      <div className="linkContainer">
+        <a href="https://github.com/seanmabli/aiinpy">Github</a>
+      </div>
+    </div>{" "}
+  </div>
 );
