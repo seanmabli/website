@@ -12,9 +12,6 @@ root.render(
       <div className="linkContainer">
         <a href="https://github.com/seanmabli">Github</a>
       </div>
-      <div className="linkContainer">
-        <a href="https://www.linkedin.com/in/sean-mabli-803954207/">Linkedin</a>
-      </div>
       <h2>The Ultrasonicists <h3>(World Robot Olympiad Team)</h3></h2>
       <div className="linkContainer">
         <a href="https://www.youtube.com/@ultrasonicists">
