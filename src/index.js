@@ -26,7 +26,7 @@ root.render(
       </div>
       <h2>aiinpy</h2>
       <div className="linkContainer">
-        <a href="https://pypi.org/project/aiinpy/">PYPI</a>
+        <a href="https://pypi.org/project/aiinpy/">PyPI</a>
       </div>
       <div className="linkContainer">
         <a href="https://aiinpy.org">Documentation</a>
