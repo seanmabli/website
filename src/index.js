@@ -5,10 +5,7 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <div className="site">
     <div>
-      <h1>Sean Mabli</h1>
-      <div className="linkContainer">
-        <p>seanmabli4@gmail.com</p>
-      </div>
+      <h1>Sean Mabli <h3>(seanmabli4@gmail.com)</h3></h1>
       <div className="linkContainer">
         <a href="https://www.youtube.com/@seanmabli">YouTube</a>
       </div>
