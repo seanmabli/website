@@ -7,6 +7,9 @@ root.render(
     <div>
       <h1>Sean Mabli</h1>
       <div className="linkContainer">
+        <p>seanmabli4@gmail.com</p>
+      </div>
+      <div className="linkContainer">
         <a href="https://www.youtube.com/@seanmabli">YouTube</a>
       </div>
       <div className="linkContainer">
