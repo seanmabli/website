@@ -24,7 +24,7 @@ root.render(
       <div className="linkContainer">
         <p><a href="https://github.com/seanmabli/wro2023">Github</a> (2023)</p>
       </div>
-      <h2>aiinpy <h3>(neural network building, training, testing, and inference!!)</h3></h2>
+      <h2>aiinpy</h2>
       <div className="linkContainer">
         <a href="https://pypi.org/project/aiinpy/">PyPI</a>
       </div>
