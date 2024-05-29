@@ -5,7 +5,7 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <div className="site">
     <div>
-      <h1>Sean Mabli <h3>(seanmabli4@gmail.com)</h3>
+      <h1>Sean Mabli <h3>(sean@synodic.ai)</h3>
       </h1>
       <div className="linkContainer">
         <a href="https://www.youtube.com/@seanmabli">YouTube</a>
@@ -38,12 +38,18 @@ root.render(
       <div className="linkContainer">
         <a href="https://github.com/seanmabli/aiinpy">Github</a>
       </div>
-      <h2>Dataset Colab</h2>
+      <h2>Synodic AI</h2>
       <div className="linkContainer">
-        <a href="https://datasetcolab.com">Dataset Colab</a>
+        <a href="https://datasetcolab.com">Synodic AI</a>
       </div>
       <div className="linkContainer">
-        <a href="https://github.com/team4169/datasetcolab">Github</a>
+        <a href="https://github.com/synodicai">Github</a>
+      </div>
+      <div className="linkContainer">
+        <a href="https://x.com/syndoic_ai">X (@synodic_ai)</a>
+      </div>
+      <div className="linkContainer">
+        <a href="https://instagram.com/syndoic_ai">Instagram (@synodic_ai)</a>
       </div>
     </div>{" "}
   </div>
