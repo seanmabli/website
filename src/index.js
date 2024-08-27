@@ -8,24 +8,38 @@ root.render(
       <h1>Sean Mabli <h3>(sean@synodic.ai)</h3>
       </h1>
       <div className="linkContainer">
-        <a href="https://www.youtube.com/@seanmabli">YouTube</a>
+        <a href="https://github.com/seanmabli">Github</a>
       </div>
       <div className="linkContainer">
-        <a href="https://github.com/seanmabli">Github</a>
+        <a href="https://x.com/seanmabli">X</a>
+      </div>
+      <div className="linkContainer">
+        <a href="https://www.youtube.com/@seanmabli">YouTube</a>
+      </div>
+      <h2>Synodic AI</h2>
+      <div className="linkContainer">
+        <a href="https://datasetcolab.com">Synodic AI</a>
+      </div>
+      <div className="linkContainer">
+        <a href="https://github.com/synodicai">Github</a>
+      </div>
+      <div className="linkContainer">
+        <a href="https://x.com/syndoic_ai">X</a>
       </div>
       <h2>The Ultrasonicists <h3>(World Robot Olympiad Team)</h3>
       </h2>
+       <h4>🥇 United States National Champion for Two Concencutive Years (2022, 2023) </h4>
       <div className="linkContainer">
         <a href="https://www.youtube.com/@ultrasonicists"> YouTube </a>
       </div>
       <div className="linkContainer">
         <p>
-          <a href="https://github.com/seanmabli/wro">Github</a> (2021, 2022)
+          <a href="https://github.com/seanmabli/wro2023">Github</a> (2023)
         </p>
       </div>
       <div className="linkContainer">
         <p>
-          <a href="https://github.com/seanmabli/wro2023">Github</a> (2023)
+          <a href="https://github.com/seanmabli/wro">Github</a> (2021, 2022)
         </p>
       </div>
       <h2>aiinpy</h2>
@@ -37,19 +51,6 @@ root.render(
       </div>
       <div className="linkContainer">
         <a href="https://github.com/seanmabli/aiinpy">Github</a>
-      </div>
-      <h2>Synodic AI</h2>
-      <div className="linkContainer">
-        <a href="https://datasetcolab.com">Synodic AI</a>
-      </div>
-      <div className="linkContainer">
-        <a href="https://github.com/synodicai">Github</a>
-      </div>
-      <div className="linkContainer">
-        <a href="https://x.com/syndoic_ai">X (@synodic_ai)</a>
-      </div>
-      <div className="linkContainer">
-        <a href="https://instagram.com/syndoic_ai">Instagram (@synodic_ai)</a>
       </div>
     </div>{" "}
   </div>
