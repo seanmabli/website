@@ -28,7 +28,6 @@ root.render(
       </div>
       <h2>The Ultrasonicists <h3>(World Robot Olympiad Team)</h3>
       </h2>
-       <h4>🥇 United States National Champion for Two Concencutive Years (2022, 2023) </h4>
       <div className="linkContainer">
         <a href="https://www.youtube.com/@ultrasonicists"> YouTube </a>
       </div>
