@@ -46,9 +46,6 @@ root.render(
         <a href="https://pypi.org/project/aiinpy/">PyPI</a>
       </div>
       <div className="linkContainer">
-        <a href="https://aiinpy.org">Documentation</a>
-      </div>
-      <div className="linkContainer">
         <a href="https://github.com/seanmabli/aiinpy">Github</a>
       </div>
     </div>{" "}
