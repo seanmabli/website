@@ -34,7 +34,6 @@ root.render(
         {/* <button className="download-button">Download Full Resume</button> */}
       </div>
       <Link href="https://github.com/seanmabli">Github</Link>
-      <Link href="https://x.com/seanmabli">X</Link>
       <Link href="https://www.youtube.com/@seanmabli">YouTube</Link>
       <div className="section-container">
         <h1 className="no-margin">Synodic AI<span className="year"> 2024-</span></h1>
@@ -43,7 +42,6 @@ root.render(
       <Link href="https://synodic.ai">Synodic AI</Link>
       <Link href="https://www.youtube.com/watch?v=ZZaLB54iTHM">Indian Diaspora Interview</Link>
       <Link href="https://github.com/synodicai">Github</Link>
-      <Link href="https://x.com/synodic_ai">X</Link>
       <Link href="https://youtube.com/@synodic_ai">YouTube</Link>
       <div className="section-container">
         <h1 className="no-margin">Dataset Colab<span className="year"> 2023-</span></h1>
