@@ -36,18 +36,16 @@ root.render(
       <Link href="https://github.com/seanmabli">Github</Link>
       <Link href="https://www.youtube.com/@seanmabli">YouTube</Link>
       <div className="section-container">
-        <h1 className="no-margin">Synodic AI<span className="year"> 2024-</span></h1>
+        <h1 className="no-margin">Synodic AI<span className="year"> 2024-2025</span></h1>
         <p>Automating image collection, labeling, and model training for object detection model development.</p>
       </div>
-      <Link href="https://synodic.ai">Synodic AI</Link>
       <Link href="https://www.youtube.com/watch?v=ZZaLB54iTHM">Indian Diaspora Interview</Link>
       <Link href="https://github.com/synodicai">Github</Link>
       <Link href="https://youtube.com/@synodic_ai">YouTube</Link>
       <div className="section-container">
-        <h1 className="no-margin">Dataset Colab<span className="year"> 2023-</span></h1>
+        <h1 className="no-margin">Dataset Colab<span className="year"> 2023-2025</span></h1>
         <p>A collaborative platform for FRC teams to create and share object detection datasets and models.</p>
       </div>
-      <Link href="https://datasetcolab.com">Dataset Colab</Link>
       <Link href="https://www.chiefdelphi.com/t/introducing-dataset-colab-an-object-detection-dataset-collaboration-software/447259">Cheif Delphi Launch Post</Link>
       <div className="section-container">
         <h1 className="no-margin">The Ultrasonicists<span className="year"> 2019-2023</span></h1>
